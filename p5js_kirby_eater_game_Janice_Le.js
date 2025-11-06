@@ -104,10 +104,10 @@ function draw() {
 
   // Handle end states
   if (gameState === "win") {
-    showEndScreen("You Win! :D");
+    showEndScreen("You Ate Everything!");
     return;
   } else if (gameState === "lose") {
-    showEndScreen("Game Over :(");
+    showEndScreen("Continue Feeding Kirby!");
     return;
   }
 
